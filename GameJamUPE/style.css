@@ -1,0 +1,318 @@
+*{
+    color: #fff3f0;
+}
+
+
+.logo {
+    width: 150px;
+    height: 112.5px;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.nav {
+    background-color: #273553;
+}
+
+body {
+    background-color: #273553;
+    font-family: "MADE TOMMY";
+    overflow-x: hidden;
+    touch-action: pan-y;
+
+}
+
+@font-face {
+    font-family: "MADE TOMMY";
+    src: url("Assets/Fonts/Fonte123.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#contato {
+    background-color: #273553;
+    left: 100px;
+}
+
+#gamejamLogo {
+    width: 150px;
+    height: 112.5px;
+}
+
+#instagramLogo {
+    width: 40px;
+    height: 40px;
+    margin-top: 10rem;
+}
+
+h5 {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ef7495;
+}
+
+/*barra de navegação*/
+
+a.navLogo{
+    left: 10px;
+}
+
+nav.navOption{
+    background-color: #273553;
+    top: -5px;
+}
+
+img.imgNav{
+    width: 90px;
+}
+
+
+ul.navOption{
+    display: flex;
+    top: -80px;
+}
+
+li.navOption{
+    padding-left: 20px ;
+    margin-bottom: 20PX;
+}
+
+a.navOption{
+    color: #fff3f0;
+    margin-top: 10px;
+}
+
+.navOption{
+    font-size: 20px;
+    text-align: center;
+    padding-left: 5px;
+    top: 40px;
+    position: relative;
+}
+
+a.navOption:hover{
+    color: #ef7495;
+}
+
+/* principal*/
+
+
+
+div.princContent{
+    margin: auto;
+    padding: 50px 0px 0px 0px;
+}
+
+div.princText{
+    margin: auto;
+}
+
+.princName{
+    font-size: 20px;
+    left: 40;
+    top: 40px;
+    position: relative;
+}
+
+h2.princText{
+    font-size: 70px;
+    top: -80%;
+    left: 15%;
+    position: relative;
+    color: #fff3f0;
+    text-shadow: 2px 2px #FF0000, 2px 2px #7300ad;
+    margin: auto;
+
+}
+
+button.princText{
+    position: relative;
+    top: 50px;
+    left: 21%;
+    background-color: #ef7495;
+    border: 5px solid #8f465a ;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 50px;
+    width: 200px;
+}
+
+button.princText:hover{
+    position: relative;
+    top: 50px;
+    left: 21%;
+    background-color:  #c15e79;
+    border: 5px solid #61313e;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 50px;
+    width: 200px;
+}
+
+img.princImage {
+    min-width: 200px;
+}
+/* sobre */
+
+#sobre {
+    background-color: #a131ff;
+    padding-bottom: 1rem;
+    margin-bottom: -3rem;
+    margin-top: -3.5rem;
+}
+
+#sobre img.logo {
+    width: 400px;
+    height: 300px;
+}
+
+.circulo {
+    padding-left: 20px;
+    display: flex;
+    width: 240px;
+    height: 240px;
+    background-color: #f0e68c;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.meio {
+    display: none;
+}
+
+.informacao {
+    background-color: #4ac4cd;
+    
+    box-shadow: #273553 10px 10px 0px;
+    border-radius: 10px;
+}
+
+.informacao h2 {
+    font-size: 18pt;
+    text-shadow: #a131ff 3px 3px 0px;
+    
+}
+
+.informacao p {
+    font-size: 10pt;
+    color: black;
+}
+
+h1.titulo {
+    font-size: 48pt;
+    text-shadow: #ef7495 3px 3px 0px, #a131ff 6px 6px 0px;
+    padding: 2rem;
+}
+
+#cursos {
+    background-color: #4ac4cd;
+    padding-bottom: 1em;
+}
+
+
+#cursos .card-image span {
+    -webkit-text-fill-color: #ef7495;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
+}
+
+@media (min-width: 993px)  {
+
+    #sobre img.logo {
+        width: 600px;
+        height: 450px;
+    }
+
+    .circulo {
+        padding-left: 30px;
+        width: 360px;
+        height: 360px;
+    }
+
+    .cima {
+        display: none;
+    }
+    
+    .meio {
+        display: flex;
+        position: absolute;
+    }
+
+    #cursos .row .push-l4 {
+        margin-bottom: -12%;
+    }
+}
+
+@media (max-width: 500px) {
+    .princImage {
+        display: none;
+    }
+
+    button.princText {
+        margin-bottom: 3rem;
+    }
+
+    #sobre {
+        margin-top: 0rem;
+    }
+}
+
+a.pdf_informacao{
+    color: #ef7495;
+}
+
+/*parceiros*/
+
+div#parceiros{
+    background-color: #ef7495;
+    padding-bottom: 1rem;
+    margin-bottom: 0rem;
+    margin-top: -3.5rem;
+
+
+}
+
+
+
+img.parceiros_inside{
+    width: 100px;
+    
+}
+
+
+
+
+#parceiros section.marcas {
+    width: 275px;
+    background-color: #fff3f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    margin: 0 5vw 1vw 5vw;
+}
+
+#parceiros .marcas img {
+    margin: 28px;
+    width: 210px;
+    border-radius: 2%;
+}
+
+#parceiros .marcas h2 {
+    color: #a131ff;
+    padding-left: 2rem;
+    font-family: "MADE TOMMY";
+    font-size: 24pt;
+    align-self: start;
+}
+
+
+pre.carosel {
+    display: flex;
+    touch-action: auto;
+}
