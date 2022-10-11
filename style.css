@@ -316,3 +316,8 @@ pre.carosel {
     display: flex;
     touch-action: auto;
 }
+
+section.marcas {
+    height: 354px;
+    justify-content: space-between;
+}
